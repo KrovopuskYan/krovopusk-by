@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 06 2017 21:38:09 GMT+0000 (UTC) */
+/* Generated on: Mon Mar 06 2017 22:40:34 GMT+0000 (UTC) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -251,11 +251,12 @@ a {
 
 .transcript {
   font-family: 'Poiret One', sans-serif;
-  color: #191919;
+  color: #2c374b;
   font-size: 100px;
   line-height: 150px;
   font-style: normal;
   font-weight: 600;
+  text-shadow: 2px 2px 0 #ffffa5;
 }
 
 .weaw {
@@ -404,7 +405,6 @@ a {
 
 .cont-1 {
   position: relative;
-  z-index: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -424,6 +424,9 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
 }
 
 .html-fon {
@@ -432,12 +435,10 @@ a {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100%;
   height: 100%;
+  background-color: transparent;
 }
 
 html.w-mod-js *[data-ix="show-right"] {
