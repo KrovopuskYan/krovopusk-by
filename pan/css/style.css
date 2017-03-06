@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 06 2017 22:48:24 GMT+0000 (UTC) */
+/* Generated on: Mon Mar 06 2017 23:26:17 GMT+0000 (UTC) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -259,6 +259,16 @@ a {
   text-shadow: 2px 2px 0 #ffffa5;
 }
 
+.transcript.black-text {
+  color: #333;
+  text-shadow: none;
+}
+
+.transcript.white-text {
+  color: #fff;
+  text-shadow: none;
+}
+
 .weaw {
   position: relative;
   display: -webkit-box;
@@ -424,8 +434,8 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("../images/58bde195faead1e03091dd1d_1195e4e0eb.jpg");
-  background-size: cover;
+  background-image: none;
+  background-size: auto;
 }
 
 .html-fon {
