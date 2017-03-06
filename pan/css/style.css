@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 06 2017 23:40:42 GMT+0000 (UTC) */
+/* Generated on: Mon Mar 06 2017 23:44:39 GMT+0000 (UTC) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -217,13 +217,21 @@ a {
 }
 
 .container-logo {
-  position: relative;
-  z-index: 5;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 50;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -420,10 +428,6 @@ a {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   overflow: hidden;
   height: 100vh;
   -webkit-box-orient: vertical;
