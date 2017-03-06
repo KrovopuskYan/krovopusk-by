@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <title>Yurkevich</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="https://daks2k3a4ib2z.cloudfront.net/5564301e0112f01b4ff30a0d/css/yurkevich.09657ca92.css" rel="stylesheet" type="text/css">
+  <link href="https://daks2k3a4ib2z.cloudfront.net/5564301e0112f01b4ff30a0d/css/yurkevich.14350795e.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script type="text/javascript">
   WebFont.load({
@@ -19,7 +19,9 @@
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+<?php if(file_exists('head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'))
+    { include_once 'head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
+<?php if(file_exists('head_code.php')){ include_once 'head_code.php'; } ?></head>
 
 <body class="body-s">
   <div class="cont-1">
@@ -206,6 +208,8 @@
 
 <script type="text/javascript" src="./mail.js"></script>
 <script type="text/javascript">$(document).ready(function(){$('[href*="brandjs"]').attr('style', 'display:none !important');});</script>
-</body>
+<?php if(file_exists('footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'))
+    { include_once 'footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
+<?php if(file_exists('footer_code.php')){ include_once 'footer_code.php'; } ?></body>
 
 </html>
