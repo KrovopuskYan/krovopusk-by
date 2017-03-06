@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 06 2017 22:40:34 GMT+0000 (UTC) */
+/* Generated on: Mon Mar 06 2017 22:48:24 GMT+0000 (UTC) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -424,21 +424,17 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: none;
-  background-position: 0px 0px;
-  background-size: auto;
+  background-image: url("../images/58bde195faead1e03091dd1d_1195e4e0eb.jpg");
+  background-size: cover;
 }
 
 .html-fon {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  display: none;
-  width: 100%;
-  height: 100%;
   background-color: transparent;
+}
+
+.tt {
+  position: absolute;
 }
 
 html.w-mod-js *[data-ix="show-right"] {
