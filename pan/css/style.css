@@ -1,4 +1,4 @@
-/* Generated on: Sun Mar 12 2017 10:50:06 GMT+0000 (UTC) */
+/* Generated on: Sun Mar 12 2017 13:51:14 GMT+0000 (UTC) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -227,6 +227,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
