@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 06 2017 23:44:39 GMT+0000 (UTC) */
+/* Generated on: Sun Mar 12 2017 10:50:06 GMT+0000 (UTC) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -217,7 +217,7 @@ a {
 }
 
 .container-logo {
-  position: fixed;
+  position: absolute;
   left: 0px;
   top: 0px;
   right: 0px;
